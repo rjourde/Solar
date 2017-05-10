@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		141BF7571DDF428700D3993B /* SunPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141BF7561DDF428700D3993B /* SunPosition.swift */; };
 		F7FC5B661D469B4E00C4D3EB /* Solar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FC5B651D469B4E00C4D3EB /* Solar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		141BF7561DDF428700D3993B /* SunPosition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SunPosition.swift; sourceTree = "<group>"; };
 		F7FC5B5A1D469B2700C4D3EB /* Solar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Solar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7FC5B5F1D469B2700C4D3EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F7FC5B651D469B4E00C4D3EB /* Solar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Solar.swift; sourceTree = "<group>"; };
@@ -47,6 +49,7 @@
 			isa = PBXGroup;
 			children = (
 				F7FC5B651D469B4E00C4D3EB /* Solar.swift */,
+				141BF7561DDF428700D3993B /* SunPosition.swift */,
 				F7FC5B5F1D469B2700C4D3EB /* Info.plist */,
 			);
 			path = Solar;
@@ -131,6 +134,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7FC5B661D469B4E00C4D3EB /* Solar.swift in Sources */,
+				141BF7571DDF428700D3993B /* SunPosition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
