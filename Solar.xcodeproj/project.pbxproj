@@ -12,6 +12,9 @@
 		14456B851EF96AC000D76A4D /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14456B831EF96ABA00D76A4D /* City.swift */; };
 		14456B881EF96ACD00D76A4D /* Solar_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14456B861EF96ACA00D76A4D /* Solar_iOSTests.swift */; };
 		14456B8D1EF96AE200D76A4D /* CorrectResults.json in Resources */ = {isa = PBXBuildFile; fileRef = 14456B891EF96AD900D76A4D /* CorrectResults.json */; };
+		14AB23B41F0FB9EE00F6D922 /* Solar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FC5B651D469B4E00C4D3EB /* Solar.swift */; };
+		14AB23B51F0FB9EE00F6D922 /* SunPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AB23B31F0F7AA400F6D922 /* SunPosition.swift */; };
+		14AB23B61F0FB9F300F6D922 /* SunPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AB23B31F0F7AA400F6D922 /* SunPosition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -270,6 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14AB23B61F0FB9F300F6D922 /* SunPosition.swift in Sources */,
 				1410E9C81EF12C1E001829A5 /* Solar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,6 +291,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14AB23B41F0FB9EE00F6D922 /* Solar.swift in Sources */,
+				14AB23B51F0FB9EE00F6D922 /* SunPosition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,6 +363,7 @@
 		97837EB31E4BB1DE000FEF64 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				DEVELOPMENT_TEAM = 6N8U6BB8MB;
 				INFOPLIST_FILE = "Solar iOSTests/Info.plist";
@@ -373,6 +380,7 @@
 		97837EB41E4BB1DE000FEF64 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				DEVELOPMENT_TEAM = 6N8U6BB8MB;
 				INFOPLIST_FILE = "Solar iOSTests/Info.plist";
