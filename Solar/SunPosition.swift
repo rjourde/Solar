@@ -22,8 +22,8 @@ import Foundation
 
 public struct SunPosition {
     
-    var azimuth: Double = 0.0
-    var altitude: Double = 0.0
+    public var azimuth: Double = 0.0
+    public var altitude: Double = 0.0
     
     init(date: Date, latitude: Double, longitude: Double) {
         
